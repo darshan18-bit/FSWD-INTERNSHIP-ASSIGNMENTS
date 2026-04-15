@@ -1,0 +1,80 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Landing Section */
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    min-height: 100vh;
+    background: linear-gradient(to right, #3498db, #6dd5fa);
+    color: white;
+}
+
+/* Content */
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    color: #3498db;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #f1f1f1;
+}
+
+/* Image */
+.image img {
+    width: 400px;
+    max-width: 100%;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+
+    .landing {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .content {
+        max-width: 100%;
+    }
+
+    .content h1 {
+        font-size: 28px;
+    }
+
+    .image {
+        margin-top: 20px;
+    }
+}

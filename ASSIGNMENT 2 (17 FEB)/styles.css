@@ -1,0 +1,78 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 70%;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h2 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Paragraph */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Image */
+img {
+    display: block;
+    border-radius: 50%;
+    border: 3px solid #3498db;
+}
+
+/* Lists */
+ul, ol {
+    background: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Links */
+a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c0392b;
+}
+
+/* Section spacing */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Contact box */
+.contact {
+    padding: 10px;
+    border: 2px dashed #3498db;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
